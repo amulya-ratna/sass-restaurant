@@ -1,0 +1,140 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    height: 700px;
+    background:
+    url(https://static9.depositphotos.com/1588534/1100/i/600/depositphotos_11008061-stock-photo-hamburger-menu.jpg)no-repeat;
+    background-size: cover;
+}
+
+$black-col: black;
+$dark-grey: darkgrey;
+$primary-color: whitesmoke;
+$green-color: green;
+
+.box{
+background-color: $black-col;
+width: 900px;
+float: right;
+border: 1px solid $black-col;
+}
+
+.box ul li {
+    width: 120px;
+    float: left; 
+    margin: 10px auto;
+    text-align: center;
+}
+
+.box ul li a{
+    text-decoration: none;
+    color: $dark-grey;
+}
+
+.box ul li:hover{background-color: gold;}
+.box ul a:hover{color: $black-col;}
+
+.wd{
+    width: 400px;
+    height: 900px;
+    background-color: $black-col;
+    opacity: 0.9;
+    padding: 55px;
+}
+
+.wd h1, h2{
+    text-align: center;
+    font-weight: 100px;
+}
+
+.wd h3{
+    text-align: justify;
+    color: darkgray;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.opt form , input[type="button"]{
+     background-color: $black-col;
+     color: whitesmoke;
+     padding: 10px;
+     margin: 14px auto;
+     padding-left: 50px;
+     padding-right: 50px;
+     text-align: center;
+}
+
+input[type="button"]:hover{background-color: $green-color;}
+
+.food_offer {
+    width: 100%;
+    height: 500px;
+    background-image: url("https://img.freepik.com/free-photo/front-view-tasty-meat-burger-with-cheese-salad-dark-background_140725-89597.jpg");
+    color: #fff;
+
+    &_heading {
+        font-weight: 600;
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+    
+    &_subheading {
+        font-weight: 300;
+        letter-spacing: 5px;
+    }
+}
+
+
+.offer-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: $black-col;
+    background-color: #fff;
+    padding: 10px 25px;
+    margin-top: 15px;
+    border-radius: 27px;
+    transition: 0.4s all;
+    &:hover {
+        background-color: $primary-color;
+        color: $green-color;
+    }
+}
+
+.overlay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #000, $alpha: 0.5);
+}
+
+.menu {
+    list-style-type: none;
+    &_item {
+        display: flex;
+        justify-content: space-between;
+        color: #707070;
+        line-height: 50px;
+    }
+
+    &_price {
+        color: $black-col;
+    }
+}
+
+h3 {
+    color: #444;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Brush Script MT';
+    text-transform: uppercase;}
+
+.food_footer {
+    background-color: #222; 
+    color: #fff;
+    
+}
+
+
